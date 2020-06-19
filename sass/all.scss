@@ -1,0 +1,76 @@
+@import 'reset';
+@import 'layout';
+@import 'mixin';
+
+
+.w-1200 {
+    margin: 0 auto;
+    width: 1200px;
+    .titleOne p {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
+.bannerimg {
+    background-image: url(../img/work4img/72.png);
+    background-position: center center;
+    background-size: cover;
+    height: 304px;
+    .titleIcon{
+        margin-left: 24px;
+       
+    }
+    .titlePage{
+        font-size: 64px;
+        line-height: 80px;
+    }
+}
+.titleOne {
+    margin-bottom: 16px;
+    select {
+        padding: 10px 19px ;
+        width: 266px;
+        height: 45px;
+    }  
+}
+.list {
+    img {
+        width: 100%;
+    } 
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 33px;
+        padding: 16px 0 32px 24px;
+    }
+    .storeName {
+        border: 2px solid #00000020;
+    }
+    .border02 {
+        border: 2px solid #00000020;
+    }
+    .listBottom {
+        background-color: #000000;
+        font-size: 20px;
+        padding: 20px;
+        a {
+            color: white;
+            text-decoration:none;
+        }
+    }
+}
+
+.fontsize-26 img{
+    width: 26px;
+    height: 24px;
+    padding-left: 36px;
+    padding-right: 8px;
+    padding-bottom: 13px;
+}
+.fontsize-26 p {
+    font-size: 24px;
+}
+// .titleOne select {
+//     margin-top: 16px;
+// }
